@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            height: 5000px;
+        }
+        .zc{
+            width: 1349px;
+            height: 661px;
+            background: rgba(0,0,0,.5);
+            position: relative;
+            position: fixed;
+            z-index: 99999;
+        }
+        .zczy{
+            padding: 10px;
+            width: 330px;
+            height: 330px;
+            background: #fff;
+            position: absolute;
+            top: 160px;
+            left: 500px;
+            position: relative;
+        }
+        .zczy h4{
+            margin-top: 30px;
+            margin-left: 20px;
+        }
+        .zczy input{
+            display: block;
+            width: 300px;
+            height: 40px;
+            margin: 20px;
+        }
+        .zczy button{
+            display: block;
+            width: 304px;
+            height: 40px;
+            background: #71bf1d;
+            color: #fff;
+            margin: 0 auto;
+            margin-left: 20px; ;
+        }
+        .zczy ul li{
+            display: inline-block;
+        }
+        .zczy ul{
+            margin: 50px 0 0 160px;
+        }
+        .close{
+            position: absolute;
+            top: 3px;
+            right: 5px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="zc">
+    <div class="zczy">
+        <img src="img/close.png" class="close"/>
+        <h4>账号登录</h4>
+        <input type="text"placeholder="请输入账号"style="text-indent: 80px"/>
+        <input type="password"placeholder="请输入密码"style="text-indent: 80px"/>
+        <button>登录</button>
+        <ul>
+            <li><a href="#">忘记密码</a></li>
+            <span>|</span>
+            <li><a href="#">免费注册</a></li>
+        </ul>
+    </div>
+</div>
+</body>
+</html>
